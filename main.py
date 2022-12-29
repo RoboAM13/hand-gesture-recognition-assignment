@@ -48,7 +48,6 @@ while True:
         cv2.drawContours(drawing,[hull],-1,(0,0,255),0)
 
         #TODO: finding convex hull
-        
         hull = cv2.convexHull(contour, returnPoints=False)
         
         
